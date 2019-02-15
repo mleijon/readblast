@@ -12,3 +12,10 @@ rm ${f/R1/SE}; wait
 gunzip $f; wait
 rename _R1.fastq .fastq ${f/.gz/}; wait
 done
+
+
+for i in a b; do
+ for j in a b; do
+ echo $j;
+ done;
+done
