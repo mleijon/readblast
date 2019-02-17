@@ -1,0 +1,9 @@
+Ett bibliotek med bibliotek med HTSstream skapade trimmade fastq-filer
+
+Kördatum - 	00-Rawdata-"fastq-data"
+		01-Cleaned-"fastq-data"
+
+Loopa över alla kördatum-bibliotek/01-cleaned bibliotek
+	Loopa över alla fastqdata i 01-Cleaned
+
+Kör skriptet med projektbiblioteket (ovan kördatum bibliotek) som argument $1
